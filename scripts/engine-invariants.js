@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const transfer = fs.readFileSync('lib/analytics/transferEngine.ts','utf8');
+const xi = fs.readFileSync('lib/analytics/xiOptimizer.ts','utf8');
+const data = fs.readFileSync('lib/dataService.ts','utf8');
+const chips = fs.readFileSync('lib/analytics/chips.ts','utf8');
+assert.match(transfer,/BEAM_WIDTH\s*=\s*1500/,'beam search width regression');
+assert.match(transfer,/MAX_CANDIDATES_PER_POSITION/,'candidate pool regression');
+assert.match(transfer,/teamId/,'club constraint regression');
+assert.match(xi,/aGk\s*=.*\?\s*1\s*:\s*0/,'GK-last bench ordering regression');
+assert.match(xi,/bGk\s*=.*\?\s*1\s*:\s*0/,'GK-last bench ordering regression');
+assert.match(data,/mySquad\.length !== 15/,'fail-closed squad validation regression');
+assert.match(data,/map\(\(c\) => \(\{ name: c\.name, event: c\.event \}\)\)/,'chip event history regression');
+assert.match(chips,/currentHalf/,'chip half-reset logic regression');
+console.log('DGH engine invariant tests: PASS');

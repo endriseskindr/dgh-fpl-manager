@@ -1,0 +1,886 @@
+DGH FPL DOMINATOR — ULTIMATE FINAL ANDROID APK BUILD PROMPT
+
+Build, fix, optimize, test, and deliver the FINAL COMPLETE PREMIUM-GRADE DGH FPL DOMINATOR ANDROID APK.
+
+This is the final production build. Do not create a prototype, mockup, demo, or partially functional app.
+
+🎯 ULTIMATE OBJECTIVE
+
+Build the smartest possible FPL decision system for one purpose:
+
+MAXIMIZE MY CHANCE OF WINNING MY DGH MINI-LEAGUE, DOMINATING MY RIVALS, AND MAXIMIZING MY WEEKLY AWARD/WINNING OPPORTUNITIES.
+
+Use the strongest ideas and capabilities found in leading FPL platforms, but make DGH Rival Intelligence + Strategy Optimization the unique core advantage.
+
+---
+
+1. AUDIT THE ENTIRE PROJECT FIRST
+
+Before changing anything:
+
+- inspect the entire codebase
+- inspect architecture
+- inspect backend
+- inspect API integration
+- inspect UI/UX
+- inspect analytics
+- inspect storage/cache
+- inspect Expo configuration
+- inspect dependencies
+- inspect Android configuration
+- inspect EAS configuration
+- inspect existing DGH rules
+- identify incomplete/broken features
+- identify duplicate/obsolete code
+- identify mock/hardcoded data
+- identify security problems
+- identify build blockers
+
+Preserve and improve the strongest existing implementation.
+
+Do NOT blindly rewrite working functionality.
+
+Merge the best existing components into one clean production architecture.
+
+---
+
+2. PRODUCTION LIVE FPL DATA
+
+Use the production backend:
+
+"https://dgh-fpl-backend.onrender.com"
+
+Configure:
+Standalone APK release note: Render/backend is out of scope; use direct official FPL API access via lib/fplClient.ts.
+
+
+Use live/official FPL data wherever available:
+
+- current Gameweek
+- fixtures
+- players
+- prices
+- ownership
+- form
+- points
+- live points
+- bonus
+- transfers
+- team value
+- squads
+- mini-league standings
+- rival squads
+- captain/vice-captain
+- chips
+- availability/injury information
+- upcoming fixtures
+- player statistics
+
+ABSOLUTE RULE
+
+NO FAKE DATA.
+NO INVENTED DATA.
+NO MOCK DATA IN PRODUCTION.
+NO SILENT FALLBACK TO FABRICATED VALUES.
+
+Clearly identify stale/cached/unavailable data.
+
+---
+
+3. DGH COMMAND CENTER
+
+Make the Home screen the ultimate decision dashboard.
+
+Show:
+
+LIVE MINI-LEAGUE POSITION
+LIVE GW SCORE
+OVERALL SCORE
+GAP TO #1
+GAP TO PODIUM
+PROJECTED GW FINISH
+DOMINATION INDEX
+BIGGEST RIVAL THREAT
+BIGGEST OPPORTUNITY
+BEST ACTION RIGHT NOW
+
+The app should answer immediately:
+
+«WHAT SHOULD I DO RIGHT NOW TO MAXIMIZE MY CHANCE OF WINNING?»
+
+---
+
+4. DGH RIVAL WAR ROOM — CORE DIFFERENTIATOR
+
+Analyze every relevant rival in my mini-league.
+
+For each rival calculate:
+
+- rank
+- points
+- GW points
+- points gap
+- projected points
+- squad
+- common players
+- unique players
+- player ownership
+- captain
+- vice-captain
+- captain differential
+- transfer activity where available
+- chips
+- team value
+- fixture exposure
+- expected points
+- differential threats
+- rank threat
+- opportunity to overtake
+
+Create:
+
+RIVAL THREAT SCORE
+
+0–100
+
+Classify:
+
+🔴 CRITICAL
+🟠 HIGH
+🟡 MEDIUM
+🟢 LOW
+
+Also calculate:
+
+ATTACK OPPORTUNITY
+
+Identify exactly which rivals can realistically be overtaken and why.
+
+---
+
+5. RIVAL DIFFERENTIAL ENGINE
+
+For every important player calculate:
+
+MY OWNERSHIP vs RIVAL OWNERSHIP
+
+Identify:
+
+- players I own that rivals don't
+- players rivals own that I don't
+- highly owned blockers
+- dangerous differentials
+- profitable differentials
+- captain differentials
+
+Show:
+
+RIVAL BLOCKER
+
+A player I should consider matching.
+
+DGH DIFFERENTIAL
+
+A player capable of creating meaningful rank gain.
+
+---
+
+6. EXPECTED-POINTS ENGINE
+
+Build a robust player projection system.
+
+Calculate expected points using available reliable data such as:
+
+- expected minutes
+- attacking potential
+- defensive potential
+- goals
+- assists
+- clean sheets
+- bonus
+- fixture difficulty
+- form
+- role
+- underlying statistics
+- availability
+- rotation risk
+
+Provide:
+
+xP GW1 → xP GW2 → xP GW3 → ...
+
+where supported.
+
+Do not present projections as guaranteed outcomes.
+
+---
+
+7. AI TRANSFER SOLVER
+
+Build a real transfer optimization engine.
+
+Evaluate:
+
+0-HIT
+
+No transfer / free transfer options.
+
+−4
+
+One hit.
+
+−8
+
+Two hits.
+
+−12
+
+Three hits.
+
+Additional hits only when mathematically justified.
+
+For each scenario calculate:
+
+Projected Points Gain
+Transfer Cost
+Net Gain
+Future Squad Value
+Future Flexibility
+Risk
+Rival Impact
+
+Core formula:
+
+NET GAIN = PROJECTED BENEFIT − TRANSFER HIT COST
+
+Then compare:
+
+BEST TRANSFER
+BEST ALTERNATIVE
+ROLL TRANSFER
+
+The recommendation must consider the next several Gameweeks, not only the current GW.
+
+---
+
+8. MULTI-GAMEWEEK STRATEGY PLANNER
+
+Build a planning engine for approximately 5–10 upcoming Gameweeks, depending on available data.
+
+Optimize:
+
+- transfers
+- fixtures
+- captaincy
+- expected points
+- squad value
+- free transfers
+- hits
+- chips
+- future flexibility
+- player availability
+- mini-league strategy
+
+Produce a recommended strategic roadmap.
+
+---
+
+9. XI OPTIMIZER
+
+Automatically select:
+
+BEST XI
+
+CAPTAIN
+
+VICE-CAPTAIN
+
+BENCH ORDER
+
+Consider:
+
+- expected points
+- minutes
+- fixture
+- attacking potential
+- clean-sheet potential
+- rotation risk
+- captaincy
+- DGH rival situation
+
+Never select players solely from raw FPL points.
+
+---
+
+10. CAPTAINCY WAR ROOM
+
+Rank captain candidates using:
+
+- xP
+- ceiling
+- fixture
+- minutes
+- ownership
+- rival captaincy
+- differential value
+- rank situation
+- risk
+
+Display:
+
+BEST CAPTAIN
+SAFE CAPTAIN
+DIFFERENTIAL CAPTAIN
+CAPTAINCY RISK
+
+Then make a decisive DGH recommendation:
+
+PROTECT
+
+Match the likely rival captain.
+
+ATTACK
+
+Use a high-upside differential.
+
+BALANCED
+
+Use the best expected-value option.
+
+---
+
+11. WHAT-IF SIMULATOR
+
+Create powerful simulations:
+
+WHAT IF I BUY X?
+
+WHAT IF I SELL X?
+
+WHAT IF I TAKE −4?
+
+WHAT IF I TAKE −8?
+
+WHAT IF I ROLL?
+
+WHAT IF I CAPTAIN X?
+
+WHAT IF RIVAL #1 CAPTAINS X?
+
+WHAT IF MY DIFFERENTIAL RETURNS?
+
+For every scenario show:
+
+Expected Points
+Net Gain
+Rank Impact
+Gap to #1
+Podium Probability
+Risk
+
+---
+
+12. LIVE RANK ENGINE
+
+Display:
+
+- live GW rank
+- overall rank
+- GW points
+- overall points
+- rank movement
+- points gap
+- projected finish
+- projected rank
+- distance from #1
+- distance from podium
+
+Make the ranking table premium and easy to scan.
+
+---
+
+13. DGH SCORING / MONEY ENGINE
+
+Use the exact DGH mini-league rules already established in the project.
+
+Where applicable:
+
+ADJUSTED SCORE = RAW FPL POINTS − TRANSFER HITS − BB BENCH DEDUCTION − TC 3RD DEDUCTION
+
+Track:
+
+- money earned
+- money lost
+- transfer hits
+- BB bench deduction
+- TC 3rd deduction
+- adjusted score
+- weekly result
+- cumulative result
+
+IMPORTANT DGH OVERRIDE: Bonus Pounds are NOT part of DGH scoring. Do not add, subtract, store, or display Bonus Pounds as a scoring component.
+
+Do not invent or modify DGH rules.
+
+Use one consistent calculation engine throughout the app.
+
+---
+
+14. DGH DOMINATION INDEX
+
+Create the signature DGH metric:
+
+DGH DOMINATION INDEX — 0–100
+
+Combine:
+
+- squad strength
+- projected GW score
+- captain advantage
+- rival advantage
+- differential potential
+- fixture advantage
+- transfer opportunity
+- rank momentum
+- chip advantage
+- squad flexibility
+
+Then output:
+
+🟢 ATTACK
+
+Strong opportunity to gain rank.
+
+🟡 HOLD
+
+Protect position and avoid unnecessary risk.
+
+🔴 DEFEND
+
+A rival has a significant advantage.
+
+---
+
+15. PLAYER DNA
+
+Every player should have a premium profile containing:
+
+- price
+- points
+- form
+- xP
+- xG
+- xA
+- minutes probability
+- ownership
+- trend
+- fixtures
+- role
+- set pieces
+- bonus potential
+- rotation risk
+- injury/availability
+- DGH score
+
+Create:
+
+DGH PLAYER SCORE — 0–100
+
+With:
+
+BUY / HOLD / SELL / AVOID
+
+recommendation where sufficient data exists.
+
+---
+
+16. ADVANCED PLAYER COMPARISON
+
+Allow side-by-side comparison of multiple players.
+
+Compare:
+
+- price
+- points
+- form
+- xP
+- xG
+- xA
+- minutes
+- ownership
+- fixtures
+- upcoming fixture run
+- risk
+- DGH score
+
+Clearly identify the superior option for my specific squad, not merely the statistically superior player.
+
+---
+
+17. ADVANCED FIXTURE INTELLIGENCE
+
+Build a fixture ticker using available data.
+
+Show:
+
+- FDR
+- fixture difficulty
+- attacking fixtures
+- defensive fixtures
+- fixture swings
+- clean-sheet potential
+- goals potential
+- rotation concerns
+- upcoming fixture run
+
+Highlight:
+
+🟢 BEST RUN
+🟡 MIXED
+🔴 DIFFICULT RUN
+
+---
+
+18. PRICE / TEAM VALUE ENGINE
+
+Track:
+
+- current price
+- selling price
+- purchase price
+- team value
+- predicted price changes where reliable
+- likely risers
+- likely fallers
+- price-change risk
+
+Provide useful alerts without pretending predictions are certain.
+
+---
+
+19. ELITE MANAGER INTELLIGENCE
+
+Where reliable data is available, analyze high-performing FPL managers.
+
+Compare:
+
+ELITE TEMPLATE vs MY TEAM vs DGH RIVALS
+
+Analyze:
+
+- ownership
+- captaincy
+- transfers
+- chips
+- differentials
+- strategic trends
+
+---
+
+20. WEEKLY DGH AWARD ENGINE
+
+Track opportunities for:
+
+- highest GW score
+- biggest rank gain
+- best captain
+- best transfer
+- biggest differential
+- best adjusted score
+- best transfer efficiency
+- weekly leader
+- DGH award opportunities
+
+Answer:
+
+«WHAT IS MY BEST PATH TO WINNING THIS GAMEWEEK?»
+
+---
+
+21. INTELLIGENT ALERTS
+
+Create useful alerts for:
+
+- rival transfers
+- rival captain changes
+- dangerous differential
+- player injury/news
+- price change
+- fixture swing
+- captain opportunity
+- rank movement
+- major expected-point change
+- player availability
+
+Avoid notification spam.
+
+---
+
+22. DECISION OUTPUT FORMAT
+
+Every major recommendation must use:
+
+🏆 BEST STRATEGY
+🔄 TRANSFERS
+⚽ BEST XI
+© CAPTAIN
+VC VICE-CAPTAIN
+🪑 BENCH
+💥 HIT / NO-HIT
+📈 EXPECTED POINTS
+💰 NET GAIN
+⚔️ RIVAL IMPACT
+📊 RANK PROBABILITY
+🏆 PODIUM PROBABILITY
+⚠️ RISK
+🎯 WHY
+
+Make the recommendation decisive and concise.
+
+---
+
+23. PREMIUM ANDROID UI/UX
+
+Build a polished premium FPL analytics interface.
+
+Prioritize:
+
+- excellent dark theme
+- clean cards
+- professional typography
+- compact information density
+- intuitive navigation
+- excellent hierarchy
+- responsive Android layouts
+- smooth but restrained animations
+- charts where useful
+- clear positive/negative indicators
+- excellent loading states
+- excellent error states
+- excellent empty states
+
+The app should feel like a premium professional sports analytics product.
+
+---
+
+24. PERFORMANCE
+
+Optimize for real Android devices.
+
+Implement:
+
+- caching
+- request deduplication
+- retries
+- exponential backoff
+- timeouts
+- offline fallback
+- stale-data indicators
+- efficient lists
+- memoization where useful
+- minimal unnecessary renders
+- minimal unnecessary API calls
+
+The app must remain responsive even when the backend is slow.
+
+---
+
+25. BACKEND RELIABILITY
+
+Verify every important production endpoint.
+
+Especially investigate and fix any existing:
+
+rival squad / rival picks retrieval failures
+
+Do not hide backend failures behind fake data.
+
+If an endpoint is unavailable because the official FPL API itself does not provide the requested data at that stage, handle the limitation transparently and use the strongest legitimate fallback.
+
+---
+
+26. SECURITY
+
+Never expose:
+
+- API secrets
+- tokens
+- private credentials
+- server secrets
+- authentication secrets
+
+Do not hardcode sensitive credentials into the APK.
+
+Production configuration must remain secure.
+
+---
+
+27. EXPO / ANDROID PRODUCTION CLEANUP
+
+Ensure:
+
+- Expo dependencies are compatible
+- React Native dependencies are compatible
+- Expo Doctor passes
+- no unnecessary local "eas-cli" dependency
+- correct Android package ID
+- correct version
+- correct version code
+- production API URL
+- production configuration
+- valid icon
+- splash screen
+- required permissions only
+- correct EAS configuration
+- no localhost URLs
+- no development endpoints
+- no debug configuration in release
+
+---
+
+28. ACTUAL TESTING — NO FALSE CLAIMS
+
+Actually execute appropriate validation.
+
+At minimum:
+
+npm/pnpm install
+TypeScript check
+lint
+Expo Doctor
+production configuration validation
+backend health check
+FPL API verification
+critical endpoint testing
+Android build validation
+EAS build
+
+Test the actual critical user journey:
+
+INSTALL → LAUNCH → CONNECT → LOAD FPL → LOAD MY TEAM → LOAD MINI-LEAGUE → LOAD RIVALS → ANALYZE → TRANSFERS → XI → CAPTAIN → RANKING → DGH SCORING
+
+If something fails, fix it before declaring completion.
+
+Never say "tested" when something was only inspected statically.
+
+---
+
+29. BUILD THE ACTUAL APK
+
+Produce the real final Android APK.
+
+Do NOT stop after:
+
+- editing code
+- running static checks
+- generating a development preview
+- saying "ready to build"
+- providing instructions for me to finish it
+
+The deliverable is:
+
+THE ACTUAL INSTALLABLE FINAL APK
+
+It must launch and connect to the production backend.
+
+---
+
+30. FINAL QUALITY GATE
+
+Before delivery, ask internally:
+
+DATA
+
+Is all production data real and current?
+
+STRATEGY
+
+Does the app actually make useful FPL decisions?
+
+RIVALS
+
+Does it understand my mini-league rather than generic FPL?
+
+TRANSFERS
+
+Does it compare hit/no-hit and future consequences?
+
+CAPTAIN
+
+Does it account for rival captaincy and rank strategy?
+
+UI
+
+Does it look premium?
+
+PERFORMANCE
+
+Is it fast and reliable?
+
+BUILD
+
+Does the actual release APK build successfully?
+
+SECURITY
+
+Are secrets protected?
+
+VERIFICATION
+
+Was the real APK tested?
+
+If any critical answer is NO, fix it.
+
+---
+
+FINAL RESPONSE
+
+When everything is genuinely complete, report only:
+
+BUILD STATUS
+
+PASS / FAIL
+
+APK
+
+Actual APK artifact/link
+
+VERSION
+
+Version + Android build number
+
+VERIFIED
+
+Short list of features actually tested.
+
+REMAINING ISSUES
+
+Only genuine unresolved issues.
+
+If none:
+
+NONE
+
+Do not ask for unnecessary confirmation.
+
+Do not stop for avoidable manual steps.
+
+Do not expose secrets.
+
+Do not claim completion until the actual final Android APK has been successfully built and verified.
+
+---
+
+🏆 FINAL MISSION
+
+The finished product must not simply be an FPL tracker.
+
+It must be:
+
+DGH FPL DOMINATOR
+
+A live, intelligent, predictive, rival-aware FPL strategy engine that combines the strongest capabilities of leading FPL tools with a unique DGH layer designed specifically to answer one question:
+
+«"Given my exact team, rank, rivals, their squads, their captains, fixtures, projections, transfers, hits, chips, differentials and DGH scoring — what is the mathematically and strategically strongest action I can take right now to maximize my probability of winning?"»
+
+BUILD THE FINAL PRODUCT. TEST THE ACTUAL APK. FIX EVERYTHING CRITICAL. DELIVER THE APK.
